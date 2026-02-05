@@ -30,7 +30,7 @@ parte_2_2025_local = r"C:\Users\JeinerJhoelLunaYacup\OneDrive - Fruitist Holding
 # =========================
 # RUTA EN REPO (SOLO PARTE 2)
 # =========================
-parte_2_repo = "data/BD_PROMOCIÓN DE FLORES_2025.2 PARTE 2.xlsx"
+parte_2_repo = "BD_PROMOCIÓN DE FLORES_2025.2 PARTE 2.xlsx"
 
 # =========================
 # LECTURA ROBUSTA (ONE DRIVE SAFE)
@@ -313,3 +313,4 @@ with st.expander("Ver serie calculada (PROMOCION, EVAL_DIA, PROMO_MEDIA_MM)"):
         serie.sort_values(["PROMOCION", "EVAL_DIA"]).reset_index(drop=True),
         use_container_width=True
     )
+
